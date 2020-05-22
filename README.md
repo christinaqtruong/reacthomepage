@@ -19,17 +19,13 @@ You can create a react-app using [Create a New React App](https://reactjs.org/do
 Once you set up the application, install the required packages by running:
 ```
 yarn add react-bootstrap
-```
-```
+
 yarn add react-dom
-```
-```
+
 yarn add react-router-dom
-```
-```
+
 yarn add react-strap
-```
-```
+
 yarn add react-scroll
 ```
 
