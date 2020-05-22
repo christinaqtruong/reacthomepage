@@ -1,7 +1,7 @@
 
 # React Homepage
 
-A website designed from scratch using react and react-bootstrap to showcase the first projects I created as a developer back in 2019 as part of the University of Texas at Austin's Coding Boot Camp summer cohort. The deployed version can be found at [here]([https://christinaqtruong.github.io/reacthomepage](https://christinaqtruong.github.io/reacthomepage)).
+A website designed from scratch using react and react-bootstrap to showcase the first projects I created as a developer back in 2019 as part of the University of Texas at Austin's Coding Boot Camp summer cohort. The deployed version can be found [here]([https://christinaqtruong.github.io/reacthomepage](https://christinaqtruong.github.io/reacthomepage)).
 
 ## Getting Started
 
