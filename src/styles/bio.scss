@@ -1,0 +1,81 @@
+#bio {
+  background-color: #343a40;
+  color: #fffbfb;
+  display: grid;
+  grid-template-rows: 8fr 2fr;
+  grid-template-columns: 1fr 2fr;
+  height: 92vh;
+  padding: 10vh;
+  text-align: center;
+  align-items: center;
+  grid-gap: 3vh;
+}
+
+.profile-pic {
+  max-height: 200px;
+  width: auto;
+  justify-self: center;
+}
+
+.progress-bar {
+  justify-self: center;
+  grid-row: span 2;
+  grid-row-start: 1;
+  grid-column-start: 2;
+  width: 80%;
+  background-color: #c6103c;
+}
+
+.bar {
+  max-width: 40vh;
+}
+
+.trait {
+  background-color: #343a40;
+  color: #fffbfb;
+  text-align: left;
+}
+
+.link {
+  grid-column: span 2;
+  grid-row-start: 4;
+  justify-self: center;
+}
+
+.contact-info {
+  grid-column: span 2;
+  justify-self: center;
+}
+
+.Github,
+.LinkedIn {
+  max-width: 64px;
+  height: auto;
+  margin: 5vh;
+  transition: all 0.2s ease-in-out;
+}
+
+.Github:hover {
+  transform: scale(1.1);
+}
+
+.LinkedIn:hover {
+  transform: scale(1.1);
+}
+@media (max-width: 600px) {
+  #bio {
+    display: flex;
+    flex-direction: column;
+    padding: 5vh;
+  }
+
+  .Github,
+  .LinkedIn {
+    max-width: 32px;
+  }
+
+  .profile-pic {
+    max-height: 200px;
+    width: auto;
+  }
+}
