@@ -15,7 +15,7 @@ const Bio = () => {
       <div id="bio">
         <Image className="profile-pic" src={Profile} rounded />
         <p className="tagline">
-          Full stack web developer specialized in React and Javascript. Based in
+          Full stack web developer interested in React, C and Java. Professional experience in Ruby on Rails working for Sock Club based in
           Austin, TX.
         </p>
         <div className="progress-bar">
@@ -24,9 +24,9 @@ const Bio = () => {
           <div className="trait">CSS/CSS Grid/ Flexbox/ Bootstrap</div>
           <ProgressBar classname="bar" now={80} />
           <div className="trait">Javascript</div>
+          <ProgressBar classname="bar" now={90} />
+          <div className="trait">Ruby</div>
           <ProgressBar classname="bar" now={70} />
-          <div className="trait">Node.js</div>
-          <ProgressBar classname="bar" now={60} />
           <div className="trait">React.js</div>
           <ProgressBar classname="bar" now={70} />
         </div>
