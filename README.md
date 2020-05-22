@@ -36,9 +36,9 @@ yarn add react-scroll
 To push the application to github, use:
 
     git init
-    git remote add origin repository_url
+    git remote add origin repository_URL
 
-The repository URL is the link you would use to clone down your github repository.
+The *repository_URL* is the link you would use to clone down your github repository.
 
 ## Deployment
 
@@ -58,7 +58,13 @@ Be sure to replace *github_username* with your github username and *repo_name* w
 
 Then inside the package.json file, add the following two scripts to the "scripts" object:
 
-    "homepage": "http://github_username.github.io/repo_name"
+    "predeploy": "yarn run build",
+    "deploy" : "gh-pages -d build",
+
+After those lines are saved and pushed to master, run:
+
+    npm run deploy
+Once the application is deployed, navigate to your github repository Settings > Github Pages and change the **Source** to *gh-pages*.
 
 ## Built With
 
@@ -68,4 +74,6 @@ Then inside the package.json file, add the following two scripts to the "scripts
 
 ## Authors
 
-* **Christina Truong** - *Github* - [github.com/christinaqtruong](github.com/christinaqtruong)
+* **Christina Truong** 
+* - [*Github* ](github.com/christinaqtruong)
+*  - [*LinkedIn* ](linkedin.com/in/christinaqtruong)
