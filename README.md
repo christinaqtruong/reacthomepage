@@ -70,7 +70,7 @@ To run the application on your local server, use:
 yarn start
 ````
 
-To deploy the application to github pages, use:
+To deploy the application to github pages, follow the instructions [here](https://blog.usejournal.com/how-to-deploy-your-react-app-into-github-pages-b2c96292b18e) or use:
 
 ````
 yarn add gh-pages --save-dev
