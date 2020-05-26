@@ -34,7 +34,7 @@ const ProjectList = () => {
           duration={500}
           id="anchor"
         >
-          Back to Work
+          Back to Top
         </Link>
       </div>
     </div>

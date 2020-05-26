@@ -19,7 +19,7 @@ class Navigation extends React.Component {
         <Navbar bg="dark" variant="dark" style={navStyle}>
           <Navbar.Brand>christina.q.truong</Navbar.Brand>
           <Nav className="mr-auto" style={{ linkStyle }}>
-            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/reacthomepage">Home</Nav.Link>
             <Nav.Link href="#work">Projects</Nav.Link>
             <Nav.Link href="/resume/christina_truong">Resume</Nav.Link>
           </Nav>
