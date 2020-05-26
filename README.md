@@ -73,7 +73,7 @@ yarn start
 To deploy the application to github pages, follow the instructions [here](https://blog.usejournal.com/how-to-deploy-your-react-app-into-github-pages-b2c96292b18e) or use:
 
 ````
-npm add gh-pages --save-dev
+npm install gh-pages --save-dev
 ````
 
 In the package.json file, add the following code to the first object:
